@@ -53,7 +53,13 @@ class Ontology:
         return self._reachable(child, parent, "is_a")
 
     def part_of(self, part, whole):
-        return self._reachable(part, whole, "part_of")
+        # Support entities (instances) by first trying direct edges, then lifting to classes
+        if self._reachable(part, whole, "part_of"):
+            return True
+        # Lift instances to their classes
+        a = self.instance_of.get(part, part) if part in self.instances else part
+        b = self.instance_of.get(whole, whole) if whole in self.instances else whole
+        return self._reachable(a, b, "part_of")
 
     def depends_on(self, a, b):
         return self._reachable(a, b, "depends_on")
@@ -90,6 +96,12 @@ class Ontology:
 
     def class_of(self, inst):
         return self.instance_of.get(inst)
+
+    def is_class(self, x):
+        return x in self.classes
+
+    def is_instance(self, x):
+        return x in self.instances
 
     def max_depth_from(self, root="Computer Science"):
         down = defaultdict(set)

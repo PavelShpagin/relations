@@ -1,11 +1,8 @@
-isa "Binary Search Tree" "Trees"
 isa "Binary Search Tree" "Data Structures"
 part "CPU Scheduling" "Operating Systems"
 dep "Parsing" "Context-Free Grammars"
-dep "Shortest Path" "Priority Queue"
+part "Round Robin" "Operating Systems"
 path "Lexical Analysis" "Finite Automata"
 instances "Relational Databases"
 classof "RISC-V"
 quit
-
-

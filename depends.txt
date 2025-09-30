@@ -1,0 +1,11 @@
+dep "Lexical Analysis" "Finite Automata"
+dep "Parsing" "Context-Free Grammars"
+dep "Shortest Path" "Priority Queue"
+dep "Spanning Tree" "Sorting"
+dep "Hash Table" "Hashing"
+dep "Transport Layer" "Network Layer"
+dep "Language Modeling" "Machine Learning"
+dep "Virtual Memory" "Computer Architecture"
+
+quit
+

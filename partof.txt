@@ -1,0 +1,20 @@
+part "Lexical Analysis" "Compilers"
+part "Parsing" "Compilers"
+part "Process Management" "Operating Systems"
+part "CPU Scheduling" "Operating Systems"
+part "Memory Management" "Operating Systems"
+part "Virtual Memory" "Operating Systems"
+part "Protocol Stack" "Computer Networks"
+part "Transport Layer" "Computer Networks"
+part "Network Layer" "Computer Networks"
+part "Instruction Set Architecture" "Computer Architecture"
+part "Parallel Models" "Computer Architecture"
+
+part "Round Robin" "Operating Systems"
+part "DFA scanner" "Compilers"
+part "Paging" "Operating Systems"
+part "TCP" "Computer Networks"
+part "IPv4" "Computer Networks"
+
+quit
+
