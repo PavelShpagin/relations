@@ -1,0 +1,27 @@
+Part-Of Relationships (Composition)
+==========================================
+
+Compilers
+|
+|__ Lexical Analysis
+|__ Parsing
+
+Operating Systems
+|
+|__ Process Management
+|    |__ CPU Scheduling
+|
+|__ Memory Management
+     |__ Virtual Memory
+
+Computer Networks
+|
+|__ Protocol Stack
+     |__ Transport Layer
+     |__ Network Layer
+
+Computer Architecture
+|
+|__ Instruction Set Architecture
+|__ Parallel Models
+

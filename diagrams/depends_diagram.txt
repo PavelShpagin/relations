@@ -1,0 +1,34 @@
+Depends-On Relationships (Prerequisites)
+==========================================
+
+Lexical Analysis
+|
+|__ depends on: Finite Automata
+
+Parsing
+|
+|__ depends on: Context-Free Grammars
+
+Shortest Path
+|
+|__ depends on: Priority Queue
+
+Spanning Tree
+|
+|__ depends on: Sorting
+
+Hash Table
+|
+|__ depends on: Hashing
+
+Transport Layer
+|
+|__ depends on: Network Layer
+
+Language Modeling
+|
+|__ depends on: Machine Learning
+
+Virtual Memory
+|
+|__ depends on: Computer Architecture

@@ -1,0 +1,94 @@
+Computer Science
+|
+|__ Theory of Computation
+|    |__ Automata & Formal Languages
+|    |    |__ Finite Automata
+|    |    |     |__ instances: DFA, NFA
+|    |    |__ Context-Free Grammars
+|    |          |__ instances: LL(1) grammar, LR(1) grammar
+|    |__ Complexity Theory
+|         |__ Complexity Classes
+|              |__ instances: P problems, NP-complete problems
+|
+|__ Programming Languages & Compilers
+|    |__ Programming Paradigms
+|    |    |__ Functional Programming
+|    |    |     |__ instances: Haskell, OCaml
+|    |    |__ Object-Oriented Programming
+|    |          |__ instances: Java, C++
+|    |__ Compilers
+|         |__ Lexical Analysis
+|         |     |__ instances: DFA scanner, Regex-based scanner
+|         |__ Parsing
+|               |__ instances: LL parser, LR parser
+|
+|__ Algorithms
+|    |__ Graph Algorithms
+|    |    |__ Shortest Path
+|    |    |     |__ instances: Dijkstra, Bellman–Ford
+|    |    |__ Spanning Tree
+|    |          |__ instances: Kruskal, Prim
+|    |__ Sorting
+|         |__ instances: Merge sort, Quick sort
+|
+|__ Data Structures
+|    |__ Trees
+|    |    |__ Binary Search Tree
+|    |          |__ instances: AVL tree, Red–Black tree
+|    |__ Hashing
+|         |__ Hash Table
+|              |__ instances: Separate chaining table, Open addressing table
+|
+|__ Operating Systems
+|    |__ Process Management
+|    |    |__ CPU Scheduling
+|    |          |__ instances: Round Robin, Priority scheduling
+|    |__ Memory Management
+|         |__ Virtual Memory
+|              |__ instances: Paging, Segmentation
+|
+|__ Computer Architecture
+|    |__ Instruction Set Architecture
+|    |    |__ RISC
+|    |    |     |__ instances: ARMv8, RISC-V
+|    |    |__ CISC
+|    |          |__ instances: x86, x86-64
+|    |__ Parallel Models
+|         |__ SIMD
+|         |     |__ instances: AVX2, NEON
+|         |__ MIMD
+|               |__ instances: SMP (shared-memory), MPI cluster
+|
+|__ Computer Networks
+|    |__ Protocol Stack
+|    |    |__ Transport Layer
+|    |    |     |__ instances: TCP, UDP
+|    |    |__ Network Layer
+|    |          |__ instances: IPv4, IPv6
+|
+|__ Databases
+|    |__ Relational Databases
+|    |     |__ instances: MySQL, PostgreSQL
+|    |__ Key–Value Stores
+|          |__ instances: Redis, DynamoDB
+|
+|__ Cryptography
+|    |__ Symmetric Cryptography
+|    |     |__ instances: AES-256, ChaCha20
+|    |__ Public-Key Cryptography
+|          |__ instances: RSA-2048, ECDSA-P256
+|
+|__ Artificial Intelligence
+|    |__ Machine Learning
+|    |     |__ Supervised Learning
+|    |     |     |__ instances: Linear Regression, SVM
+|    |     |__ Unsupervised Learning
+|    |           |__ instances: K-Means, PCA
+|    |__ Natural Language Processing
+|          |__ Language Modeling
+|               |__ instances: n-gram model, Transformer LM
+|
+|__ Computational Geometry
+     |__ Planar Geometry
+          |__ Triangulation
+               |__ instances: Delaunay triangulation, Ear clipping
