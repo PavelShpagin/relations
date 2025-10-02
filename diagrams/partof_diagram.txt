@@ -4,21 +4,27 @@ Part-Of Relationships (Composition)
 Compilers
 |
 |__ Lexical Analysis
+|    |__ instances: DFA scanner, Regex-based scanner
 |__ Parsing
+     |__ instances: LL parser, LR parser
 
 Operating Systems
 |
 |__ Process Management
 |    |__ CPU Scheduling
+|         |__ instances: Round Robin, Priority scheduling
 |
 |__ Memory Management
      |__ Virtual Memory
+          |__ instances: Paging, Segmentation
 
 Computer Networks
 |
 |__ Protocol Stack
      |__ Transport Layer
+     |    |__ instances: TCP, UDP
      |__ Network Layer
+          |__ instances: IPv4, IPv6
 
 Computer Architecture
 |
